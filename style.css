@@ -1,0 +1,127 @@
+body{
+    background-color: rgb(255,255,198);
+}
+.anim{
+    width: 200px;
+    height: 210px;
+  margin-top: 3px;
+   margin-left: -200px;
+    background-color:none;
+
+    position: relative;
+    animation-name: walk;
+    animation-duration: 20s;
+}
+@keyframes walk {
+    0%{
+        background-image: url(i3-unscreen.gif);
+        background-size: 310px;
+        left: 0;
+    }
+    20%{
+        background-image: url(i3-unscreen.gif);
+        background-size: 310px;
+        left: 150px;
+    }
+    40%{
+        background-image: url(i3-unscreen.gif);
+        background-size: 310px;
+        left: 300px;
+    }
+    60%{
+        background-image: url(i3-unscreen.gif);
+        background-size: 310px;
+        left: 500px;
+    }
+    80%{
+        background-image: url(i3-unscreen.gif);
+        background-size: 310px;
+        left: 900px;
+       
+    }
+    100%{
+        background-image: url(i3-unscreen.gif);
+        background-size: 310px;
+        left: 1300px;
+    }
+}
+
+/* Heading */
+.heading{
+  margin-top: 95px;
+  font-family:Segoe UI Black;
+    font-size: 70px;
+    margin-left: 100px;
+}
+.heading1{
+    font-family:Segoe UI Semibold;
+    margin-left: 100px;
+    font-size: 40px;
+    margin-top: -40px;
+}
+
+.but{
+    width: 100px;
+    text-align: center;
+    margin-top: -80px;
+}
+
+.but_n {
+    text-align: center;
+    margin-left: 100px;
+    width: 100px;
+    background-color: rgb(255,179,102);
+    padding: 10px;
+    border: none;
+    text-align: center;   
+
+}
+.but :hover{
+    background-color: rgb(255,145,34);
+    width: 100px;
+}
+
+
+.but_an{
+    text-decoration: none;
+    font-size: 15px;
+    font-family:Segoe UI Semibold;
+    color: #000;
+}
+.nav{
+    list-style-type: none;
+    font-family:Segoe UI Semibold;
+    margin-left: 900px;
+    margin-top: -80px;
+    
+}
+.n_ele{
+    font-size: 20px;
+    color: rgb(59,59,59);
+    font-family:Segoe UI Semibold;
+    float: left;
+    color: #000;
+    text-decoration: none;
+}
+.n_ele:hover{
+    text-decoration: underline;
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+    
